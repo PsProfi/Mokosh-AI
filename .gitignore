@@ -1,0 +1,5 @@
+# Ignore local environment variable files
+discord/.env
+discord/*.env
+telegram/*.env
+telegram/.env

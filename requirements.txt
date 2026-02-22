@@ -8,3 +8,6 @@ openai
 python-dotenv
 pydantic
 httpx
+discord.py
+httpx
+python-dotenv

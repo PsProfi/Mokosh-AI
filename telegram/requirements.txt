@@ -1,0 +1,10 @@
+aiogram==3.25.0
+aiohttp==3.13.3
+python-dotenv
+python-telegram-bot
+fastapi
+uvicorn
+openai
+python-dotenv
+pydantic
+httpx

@@ -41,7 +41,7 @@ load_dotenv()
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 API_URL        = os.getenv("HARASSMENT_API_URL", "https://mokosh-api-9f9713bc633f.herokuapp.com")
 BOT_USERNAME   = os.getenv("BOT_USERNAME", "your_bot")
-API_TOKEN      = os.getenv("MOKOSH_API_TOKEN", "")       # optional X-API-Token header
+API_TOKEN      = os.getenv("API_TOKEN")       # optional X-API-Token header
 DB_PATH        = os.getenv("DB_PATH", "mokosh.db")
 
 

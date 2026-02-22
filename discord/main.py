@@ -45,7 +45,7 @@ load_dotenv()
 
 DISCORD_TOKEN    = os.getenv("DISCORD_TOKEN")
 API_URL          = os.getenv("MOKOSH_API_URL", "https://mokosh-api-9f9713bc633f.herokuapp.com")
-API_TOKEN        = os.getenv("MOKOSH_API_TOKEN", "")
+API_TOKEN        = os.getenv("API_TOKEN", "")
 DB_PATH          = os.getenv("DB_PATH", "mokosh.db")
 LOG_CHANNEL_NAME = os.getenv("LOG_CHANNEL_NAME", "mokosh-log")
 

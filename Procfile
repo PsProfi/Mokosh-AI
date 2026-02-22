@@ -1,3 +1,1 @@
-pip install -r requirements.txt
-python discord/main.py
-python telegram/app/main.py
+web: python3 healthcheck.py & python3 discord/main.py & python3 telegram/main.py & wait

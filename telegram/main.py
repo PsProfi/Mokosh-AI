@@ -42,7 +42,7 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 API_URL        = os.getenv("HARASSMENT_API_URL", "https://mokosh-api-9f9713bc633f.herokuapp.com")
 BOT_USERNAME   = os.getenv("BOT_USERNAME", "your_bot")
 API_TOKEN      = os.getenv("API_TOKEN", "")       # optional X-API-Token header
-DB_PATH        = os.getenv("DB_PATH", "mokosh.db")
+DB_PATH        = os.getenv("TELEGRAM_DB_PATH", "mokosh_telegram.db")
 
 
 def api_headers() -> dict:
